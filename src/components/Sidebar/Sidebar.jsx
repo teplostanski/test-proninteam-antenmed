@@ -8,7 +8,7 @@ const Sidebar = () => {
     <Col className='d-none d-lg-block' md='3'>
       <aside className='d-flex flex-column justify-content-between vh-100 align-items-start ms-5'>
         <Row>
-          <Image priority src={logo} alt='logo' className='logo sidebar__logo'></Image>
+          <Image unoptimized src={logo} alt='logo' className='logo sidebar__logo'></Image>
         </Row>
         <Row>
           <ul className='m-3'>

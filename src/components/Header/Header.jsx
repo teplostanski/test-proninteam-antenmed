@@ -9,7 +9,7 @@ const Header = () => {
         <Col>
           <ul className='d-flex header-list list header__desc'>
             <li className='header-list__item item mx-auto d-lg-none'>
-              <Image priority src={logo} alt='logo' className='logo'></Image>
+              <Image unoptimized src={logo} alt='logo' className='logo'></Image>
             </li>
             <li className='d-none d-sm-block header-list__item item'>
               <a className='link text-white' href='tel:88002007597'>
