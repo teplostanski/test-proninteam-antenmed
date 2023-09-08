@@ -3,9 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   output: 'export',
   images: {
-    loader: 'imgix',
-    path: '',
-  },
+    unoptimized: true
+}
 }
 
 module.exports = nextConfig
